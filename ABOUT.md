@@ -6,3 +6,4 @@ Outside of my core technical work, I am interested in how computational thinking
 
 I am interested in the Archive Toolkit as a way to study and apply Virgil Abloh’s methodology, especially his approach to iteration, cross-disciplinary thinking, and redefining how tools and systems can be used creatively.
 
+- Sarom Leang, "PhD."

@@ -450,13 +450,19 @@ def render_waterfall(freqs, times, Sxx_db, anomaly_mask, anomalies,
     )
     ax_footer.text(
         1.0, 0.1,
-        'Sarom Leang, PhD.',
+        'Sarom Leang, "PhD."',
         transform=ax_footer.transAxes,
         fontsize=9, fontfamily="monospace", color=TEXT_DARK,
         va="center", ha="right"
     )
 
-    plt.savefig(output_path, dpi=150, bbox_inches="tight",
+    # UNCLASSIFIED banners (top and bottom)
+    fig.text(0.5, 0.995, "UNCLASSIFIED", fontsize=14, fontweight="bold",
+             fontfamily="monospace", color="#00A600", ha="center", va="top")
+    fig.text(0.5, 0.005, "UNCLASSIFIED", fontsize=14, fontweight="bold",
+             fontfamily="monospace", color="#00A600", ha="center", va="bottom")
+
+    plt.savefig(output_path, dpi=300, bbox_inches="tight",
                 facecolor=fig.get_facecolor(), edgecolor="none")
     plt.close()
 

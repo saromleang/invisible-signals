@@ -356,9 +356,15 @@ def render(freqs, times, Sxx_db, anomaly_mask, annotations, sample_rate,
     ax_ft.text(1.0, 0.8, '"EVERYTHING IN QUOTES"', transform=ax_ft.transAxes,
                fontsize=8, fontfamily="monospace", color=ORANGE,
                va="center", ha="right")
-    ax_ft.text(1.0, 0.15, 'Sarom Leang, PhD.', transform=ax_ft.transAxes,
+    ax_ft.text(1.0, 0.15, 'Sarom Leang, "PhD."', transform=ax_ft.transAxes,
                fontsize=9, fontfamily="monospace", color=TEXT_DARK,
                va="center", ha="right")
+
+    # UNCLASSIFIED banners (top and bottom)
+    fig.text(0.5, 0.995, "UNCLASSIFIED", fontsize=14, fontweight="bold",
+             fontfamily="monospace", color="#00A600", ha="center", va="top")
+    fig.text(0.5, 0.005, "UNCLASSIFIED", fontsize=14, fontweight="bold",
+             fontfamily="monospace", color="#00A600", ha="center", va="bottom")
 
     plt.savefig(output_path, dpi=300, bbox_inches="tight",
                 facecolor=fig.get_facecolor(), edgecolor="none")

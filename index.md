@@ -21,7 +21,17 @@ Generates a synthetic RF environment with narrowband carriers, pulsed transmissi
 python rf_waterfall.py
 ```
 
-![RF Waterfall Output](rf_waterfall_output.png)
+### Gallery
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px;">
+  <a href="images/full/rf_waterfall_outputV1.jpg"><img src="images/thumbs/rf_waterfall_outputV1.jpg" alt="Waterfall V1" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+  <a href="images/full/rf_waterfall_outputV2.jpg"><img src="images/thumbs/rf_waterfall_outputV2.jpg" alt="Waterfall V2" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+  <a href="images/full/rf_waterfall_outputV3.jpg"><img src="images/thumbs/rf_waterfall_outputV3.jpg" alt="Waterfall V3" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+  <a href="images/full/rf_waterfall_outputV4.jpg"><img src="images/thumbs/rf_waterfall_outputV4.jpg" alt="Waterfall V4" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+  <a href="images/full/rf_waterfall_outputV5.jpg"><img src="images/thumbs/rf_waterfall_outputV5.jpg" alt="Waterfall V5" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+  <a href="images/full/rf_waterfall_outputV6.jpg"><img src="images/thumbs/rf_waterfall_outputV6.jpg" alt="Waterfall V6" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+  <a href="images/full/rf_waterfall_outputV7.jpg"><img src="images/thumbs/rf_waterfall_outputV7.jpg" alt="Waterfall V7" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+</div>
 
 ---
 
@@ -33,7 +43,14 @@ Simulates an RF environment containing three drone signatures — a DJI-style cr
 python rf_drone_detect.py
 ```
 
-![Drone Detection Output](rf_drone_outputV3.png)
+### Gallery
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px;">
+  <a href="images/full/rf_drone_outputV1.jpg"><img src="images/thumbs/rf_drone_outputV1.jpg" alt="Drone V1" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+  <a href="images/full/rf_drone_outputV2.jpg"><img src="images/thumbs/rf_drone_outputV2.jpg" alt="Drone V2" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+  <a href="images/full/rf_drone_outputV3.jpg"><img src="images/thumbs/rf_drone_outputV3.jpg" alt="Drone V3" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+  <a href="images/full/rf_drone_outputV4.jpg"><img src="images/thumbs/rf_drone_outputV4.jpg" alt="Drone V4" style="width: 200px; border: 1px solid #d9d2c5;"></a>
+</div>
 
 ---
 

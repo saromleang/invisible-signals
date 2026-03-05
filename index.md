@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-# "WATERFALL"
+# "SIGNAL"
 
 **RF Signal Waterfall Visualization & Drone Detection**
 

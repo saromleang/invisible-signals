@@ -38,4 +38,4 @@ Dependencies: `numpy`, `scipy`, `matplotlib`
 
 ## Author
 
-Sarom Leang, "PhD.""
+Sarom Leang, "PhD."

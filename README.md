@@ -20,7 +20,20 @@ Output: `rf_waterfall_output.png`
 
 ### `rf_drone_detect.py` — Drone RF Signature Detection
 
-Simulates an RF environment containing three drone signatures — a DJI-style craft (FHSS control, video downlink, telemetry), a smaller drone (FHSS + telemetry), and an FPV analog video transmission — alongside background carriers and a LoRa ground station. Includes a drone activity timeline panel.
+Simulates an RF environment containing three distinct drone signatures alongside background carriers and a LoRa ground station. The visualization includes an annotated waterfall spectrogram, power-over-time plot, and a drone activity timeline panel.
+
+**Simulated Drones:**
+
+- **Drone 1 (DJI-style)** — FHSS control link (200 kHz bandwidth, 80 hops/sec), wideband video downlink (filtered noise block), and periodic telemetry beacons (4 ms pulses at 200 ms intervals)
+- **Drone 2 (smaller craft)** — FHSS control link (150 kHz bandwidth, 50 hops/sec) and telemetry beacons (3 ms pulses at 150 ms intervals)
+- **Drone 3 (FPV flyby)** — Analog FM video transmission, brief and high-power, simulating a close-range flyby
+
+**Detection Approach:**
+
+- Waterfall spectrogram computed from synthetic I/Q data (512-point FFT)
+- Anomaly detection via median-filtered background subtraction (3 dB threshold)
+- Drone signals annotated with time-frequency bounding regions
+- Activity timeline shows each signal's presence over time
 
 ```
 python rf_drone_detect.py

@@ -2,7 +2,7 @@
 RF Drone Detection Waterfall
 Visualizing drone signatures in the electromagnetic spectrum.
 
-Sarom Leang, PhD.
+Sarom Leang, "PhD."
 """
 
 import numpy as np
